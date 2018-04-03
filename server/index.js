@@ -1,4 +1,12 @@
 const express = require('express')
+const todo1 = require("../mocks/scoring_1.json")
+const todo2 = require("../mocks/scoring_2.json")
+
+const todos = [
+    todo1,
+    todo2
+]
+console.log(todos)
 
 const app = express()
 
